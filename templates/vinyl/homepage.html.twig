@@ -3,12 +3,12 @@
 {% block title %}Create a new Record | {{ parent() }}{% endblock %}
 
 {% block body %}
-<h1>{{ title }}</h1>
+<h1 class="d-flex justify-content-center align-items-center">{{ title }}</h1>
 
 {# TODO: add an image of the record #}
 
-<div>
-    Tracks:
+<div class="d-flex justify-content-center align-items-center mt-4">
+    <span class="text-center font-weight-bold" style="font-size: 32px;">Tracks:</span>
 
     <ul>
         {% for track in tracks %}
